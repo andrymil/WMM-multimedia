@@ -39,10 +39,6 @@ def calc_diff_img(img):
 
 
 def dwt(img):
-    """
-    Bardzo prosta i podstawowa implementacja, nie uwzględniająca efektywnych metod obliczania DWT
-    i dopuszczająca pewne niedokładności.
-    """
     maskL = np.array([0.02674875741080976, -0.01686411844287795, -0.07822326652898785, 0.2668641184428723,
         0.6029490182363579, 0.2668641184428723, -0.07822326652898785, -0.01686411844287795, 0.02674875741080976])
     maskH = np.array([0.09127176311424948, -0.05754352622849957, -0.5912717631142470, 1.115087052456994,
